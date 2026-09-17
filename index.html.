@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FalconX | Payment Project</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #f4f7ff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #26304a;
+    }
+
+    .logo { font-size: 24px; font-weight: bold; color: #78b7ff; }
+
+    nav a {
+      color: #dce6f7;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    main { max-width: 1000px; margin: auto; padding: 70px 8%; }
+
+    .hero { text-align: center; padding: 45px 0; }
+
+    .hero h1 { font-size: clamp(36px, 7vw, 64px); margin: 0 0 16px; }
+
+    .hero p { color: #b9c5dc; max-width: 650px; margin: auto; }
+
+    .button {
+      display: inline-block;
+      margin-top: 26px;
+      padding: 12px 22px;
+      border-radius: 8px;
+      background: #2878e5;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      margin-top: 45px;
+      padding: 26px;
+      background: #131c31;
+      border: 1px solid #26304a;
+      border-radius: 14px;
+    }
+
+    h2 { color: #78b7ff; }
+
+    .notice { color: #b9c5dc; font-size: 14px; }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #9aa9c3;
+      border-top: 1px solid #26304a;
+    }
+
+    @media (max-width: 600px) {
+      header { align-items: flex-start; gap: 12px; flex-direction: column; }
+      nav a { margin: 0 14px 0 0; }
+      main { padding-top: 35px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">FalconX</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#token">Token</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Payments, made simple.</h1>
+      <p>
+        FalconX is a proposed blockchain payment project exploring
+        ways to make digital payments easier to understand and use.
+      </p>
+      <a class="button" href="#about">Explore the project</a>
+    </div>
+
+    <section id="about">
+      <h2>About FalconX</h2>
+      <p>
+        Our goal is to research and develop a digital payment system
+        using blockchain technology. The project is still under development.
+      </p>
+    </section>
+
+    <section id="token">
+      <h2>FLX Token</h2>
+      <p><strong>Planned network:</strong> BNB Smart Chain</p>
+      <p><strong>Proposed total supply:</strong> 1,000,000,000 FLX</p>
+      <p class="notice">
+        These are proposed details. The token has not been confirmed
+        as launched on the mainnet.
+      </p>
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <p>1. Learn and develop the project concept.</p>
+      <p>2. Build and test a prototype on a test network.</p>
+      <p>3. Review security and project requirements.</p>
+      <p>4. Consider future development based on testing and review.</p>
+    </section>
+  </main>
+
+  <footer>
+    FalconX Project — Under development
+  </footer>
+</body>
+</html>
